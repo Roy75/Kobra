@@ -49,6 +49,9 @@ names:
 interval: 3000
 
 
+
+
+
 type: custom:flip-sensor-card
 entities:
   - sensor.solaredge_ac_power
