@@ -7,6 +7,8 @@ Deze custom kaart wisselt automatisch tussen meerdere sensoren, zoals:
 - 💧 Luchtvochtigheid
 - 💡 Verbruik
 - ☀️ Zonnepanelen
+- 💻 Processor
+- 💽 Geheugen
 - Andere sensoren naar keuze  
 
 De kaart draait in een mooie **flip-animatie**, zodat je meerdere waarden compact op je dashboard kunt tonen. 🌀✨
