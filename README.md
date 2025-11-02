@@ -30,7 +30,7 @@ interval: 3000
 
 ---
 
-## 💻 Installatie
+#### 💻 Installatie
 
 1. Voeg de JS als resource toe in Lovelace:
 
