@@ -41,7 +41,7 @@ resources:
 ```yaml
 type: custom:flip-sensor-card
 entities:
-  - sensor.woonkamer_temperatuur_2
+  - sensor.woonkamer_temperatuur
   - sensor.buienradar_temperature
 names:
   - Binnentemperatuur
