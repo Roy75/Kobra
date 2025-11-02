@@ -16,18 +16,6 @@ De kaart draait in een mooie **flip-animatie**, zodat je meerdere waarden compac
 ![Flip Sensor Card animatie](flip-animation.gif)  
 *Of screenshot: screenshot.png*
 
----
-
-## 💻 Installatie
-
-1. Voeg de JS als resource toe in Lovelace:
-
-```yaml
-resources:
-  - url: https://roy75.github.io/Kobra/flip-sensor-card.js
-    type: module
-
-
 type: custom:flip-sensor-card
 entities:
   - sensor.woonkamer_temperatuur_2
@@ -41,4 +29,20 @@ icons:
   - mdi:home-thermometer
   - mdi:weather-sunny
 icon_size: 2em
+
+---
+
+## 💻 Installatie
+
+1. Voeg de JS als resource toe in Lovelace:
+
+```yaml
+resources:
+  - url: https://roy75.github.io/Kobra/flip-sensor-card.js
+    type: module
+
+
+
+
+
 
