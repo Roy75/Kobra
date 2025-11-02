@@ -43,11 +43,13 @@ resources:
 ```yaml
 type: custom:flip-sensor-card
 entities:
-  - sensor.woonkamer_temperatuur
-  - sensor.buienradar_temperature
+  - sensor.temperatuur_serverkast_temperature
+  - sensor.patchkast_electric_consumption_w_3
+  - sensor.ups_power
 names:
-  - Binnentemperatuur
-  - Buitentemperatuur
+  - Temperatuur Patchkast
+  - Vermogen Patchkast
+  - Vermogen UPS
 interval: 3000
 
 
@@ -56,14 +58,12 @@ interval: 3000
 
 type: custom:flip-sensor-card
 entities:
-  - sensor.solaredge_ac_power
-  - sensor.huidige_verbruik
-  - sensor.daily_water
+  - sensor.woonkamer_temperatuur
+  - sensor.buienradar_temperature
 names:
-  - Zonnepanelen
-  - Huidig verbruik
-  - Water
-inerval: 3000
+  - Binnentemperatuur
+  - Buitentemperatuur
+interval: 3000
 
 
 
