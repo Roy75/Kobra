@@ -16,7 +16,13 @@ De kaart draait in een mooie **flip-animatie**, zodat je meerdere waarden compac
 ![Flip Sensor Card animatie](flip-animation.gif)  
 *Of screenshot: screenshot.png*
 
-### 💻 Voorbeeld YAML-configuratie
+### 📝 Beschikbare opties
+
+- `entities` - lijst met sensor entity_id’s 🔢  
+- `names` - optionele namen voor elke sensor 🏷️     
+- `interval` - tijd in milliseconden tussen flips ⏱️ (standaard 3000) 
+
+#### 💻 Voorbeeld YAML-configuratie
 
 ```yaml
 type: custom:flip-sensor-card
@@ -27,6 +33,7 @@ names:
   - Binnen
   - Buiten
 interval: 3000
+
 
 
 
