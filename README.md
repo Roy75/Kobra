@@ -36,6 +36,8 @@ resources:
   - url: https://roy75.github.io/Kobra/flip-sensor-card.js
     type: module
 
+Ga naar Instellingem - Dashboards, klik op de 3 puntjes rechtsboven, dan op "Bronnen", "+ Hulpbron Toevoegen".
+
 ---
 
 # 💻 Voorbeeld YAML-configuratie
