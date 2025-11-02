@@ -26,3 +26,19 @@ De kaart draait in een mooie **flip-animatie**, zodat je meerdere waarden compac
 resources:
   - url: https://roy75.github.io/Kobra/flip-sensor-card.js
     type: module
+
+
+type: custom:flip-sensor-card
+entities:
+  - sensor.woonkamer_temperatuur_2
+  - sensor.buienradar_temperature
+names:
+  - Binnen
+  - Buiten
+interval: 3000
+show_icons: true
+icons:
+  - mdi:home-thermometer
+  - mdi:weather-sunny
+icon_size: 2em
+
