@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Kobra - Flip Sensor Card</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 2em auto;
+      line-height: 1.6;
+      padding: 0 1em;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 1em;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    a {
+      color: #1e88e5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kobra - Flip Sensor Card</h1>
+  <p>
+    Dit is de <strong>flip-sensor-card</strong> voor Home Assistant.
+    De kaart wisselt automatisch tussen meerdere sensoren, bijvoorbeeld binnentemperatuur en buitentemperatuur.
+  </p>
+
+  <h2>JS-bestand</h2>
+  <p>
+    Het JavaScript-bestand is beschikbaar via GitHub Pages:
+    <a href="flip-sensor-card.js" target="_blank">flip-sensor-card.js</a>
+  </p>
+
+  <h2>Voorbeeld gebruik in Home Assistant</h2>
+  <pre><code>
+resources:
+  - url: https://roy75.github.io/Kobra/flip-sensor-card.js
+    type: module
+
+type: custom:flip-sensor-card
+entities:
+  - sensor.woonkamer_temperatuur_2
+  - sensor.buienradar_temperature
+names:
+  - Binnen
+  - Buiten
+interval: 3000
+show_icons: true
+icons:
+  - mdi:home-thermometer
+  - mdi:weather-sunny
+icon_size: 2em
+  </code></pre>
+
+  <h2>Opties</h2>
+  <ul>
+    <li><code>entities</code> - lijst met sensor entity_id’s</li>
+    <li><code>names</code> - optionele namen voor elke sensor</li>
+    <li><code>icons</code> - optionele mdi-iconen voor elke sensor</li>
+    <li><code>show_icons</code> - true of false</li>
+    <li><code>icon_size</code> - bv. <code>1.8em</code> of <code>2em</code></li>
+    <li><code>interval</code> - tijd in milliseconden tussen flips (standaard 3000)</li>
+  </ul>
+
+  <p>
+    Meer informatie of updates vind je op
+    <a href="https://github.com/roy75/Kobra" target="_blank">GitHub Kobra repository</a>.
+  </p>
+</body>
+</html>
