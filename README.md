@@ -3,8 +3,10 @@
 Welkom bij de **flip-sensor-card** voor Home Assistant! 🏠💡  
 Deze custom kaart wisselt automatisch tussen meerdere sensoren, zoals:  
 - 🌡️ Binnentemperatuur  
-- ☀️ Buitentemperatuur  
-- 💧 Luchtvochtigheid  
+- 🏠 Buitentemperatuur  
+- 💧 Luchtvochtigheid
+- 💡 Verbruik
+- ☀️ Zonnepanelen
 - Andere sensoren naar keuze  
 
 De kaart draait in een mooie **flip-animatie**, zodat je meerdere waarden compact op je dashboard kunt tonen. 🌀✨
