@@ -18,7 +18,6 @@ De kaart draait in een mooie **flip-animatie**, zodat je meerdere waarden compac
 # 📸 Voorbeeld van de kaart
 
 ![Flip Sensor Card animatie](flip-animation.gif)  
-*Of screenshot: screenshot.png*
 
 # 📝 Beschikbare opties
 
