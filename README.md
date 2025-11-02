@@ -16,6 +16,7 @@ De kaart draait in een mooie **flip-animatie**, zodat je meerdere waarden compac
 ![Flip Sensor Card animatie](flip-animation.gif)  
 *Of screenshot: screenshot.png*
 
+```yaml
 type: custom:flip-sensor-card
 entities:
   - sensor.woonkamer_temperatuur_2
