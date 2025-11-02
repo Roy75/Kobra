@@ -44,9 +44,21 @@ entities:
   - sensor.woonkamer_temperatuur_2
   - sensor.buienradar_temperature
 names:
-  - Binnen
-  - Buiten
+  - Binnentemperatuur
+  - Buitentemperatuur
 interval: 3000
+
+
+type: custom:flip-sensor-card
+entities:
+  - sensor.solaredge_ac_power
+  - sensor.huidige_verbruik
+  - sensor.daily_water
+names:
+  - Zonnepanelen
+  - Huidig verbruik
+  - Water
+inerval: 3000
 
 
 
