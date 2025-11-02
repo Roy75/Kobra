@@ -11,9 +11,15 @@
       margin: 2em auto;
       line-height: 1.6;
       padding: 0 1em;
+      background: #f9f9f9;
+      color: #2c3e50;
     }
     h1 {
-      color: #2c3e50;
+      color: #1e88e5;
+    }
+    h2 {
+      margin-top: 1.5em;
+      color: #34495e;
     }
     code {
       background: #f4f4f4;
@@ -29,23 +35,37 @@
     }
     a {
       color: #1e88e5;
+      text-decoration: none;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 1em 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    ul li {
+      margin-bottom: 0.5em;
     }
   </style>
 </head>
 <body>
-  <h1>Kobra - Flip Sensor Card</h1>
+  <h1>🌀 Kobra - Flip Sensor Card</h1>
   <p>
-    Dit is de <strong>flip-sensor-card</strong> voor Home Assistant.
-    De kaart wisselt automatisch tussen meerdere sensoren, bijvoorbeeld binnentemperatuur en buitentemperatuur.
+    Welkom bij de <strong>flip-sensor-card</strong> voor <strong>Home Assistant</strong>! 🏠💡  
+    Deze kaart wisselt automatisch tussen meerdere sensoren, bijvoorbeeld binnentemperatuur 🌡️ en buitentemperatuur ☀️, of andere waarden zoals luchtvochtigheid 💧.  
   </p>
 
-  <h2>JS-bestand</h2>
+  <h2>📸 Screenshot</h2>
+  <p>Zo ziet de kaart eruit op je dashboard:</p>
+  <img src="https://raw.githubusercontent.com/roy75/Kobra/gh-pages/screenshot.png" alt="Flip Sensor Card voorbeeld">
+
+  <h2>💻 JavaScript bestand</h2>
   <p>
-    Het JavaScript-bestand is beschikbaar via GitHub Pages:
+    Het JS-bestand wordt gehost via GitHub Pages:  
     <a href="flip-sensor-card.js" target="_blank">flip-sensor-card.js</a>
   </p>
 
-  <h2>Voorbeeld gebruik in Home Assistant</h2>
+  <h2>⚙️ Voorbeeld configuratie in Home Assistant</h2>
   <pre><code>
 resources:
   - url: https://roy75.github.io/Kobra/flip-sensor-card.js
@@ -66,19 +86,23 @@ icons:
 icon_size: 2em
   </code></pre>
 
-  <h2>Opties</h2>
+  <h2>📝 Beschikbare opties</h2>
   <ul>
-    <li><code>entities</code> - lijst met sensor entity_id’s</li>
-    <li><code>names</code> - optionele namen voor elke sensor</li>
-    <li><code>icons</code> - optionele mdi-iconen voor elke sensor</li>
-    <li><code>show_icons</code> - true of false</li>
-    <li><code>icon_size</code> - bv. <code>1.8em</code> of <code>2em</code></li>
-    <li><code>interval</code> - tijd in milliseconden tussen flips (standaard 3000)</li>
+    <li><code>entities</code> - lijst met sensor entity_id’s 🔢</li>
+    <li><code>names</code> - optionele namen voor elke sensor 🏷️</li>
+    <li><code>icons</code> - optionele Material Design iconen 🎨</li>
+    <li><code>show_icons</code> - true of false (toon of verberg iconen) 👀</li>
+    <li><code>icon_size</code> - bv. <code>1.8em</code> of <code>2em</code> 🔧</li>
+    <li><code>interval</code> - tijd in milliseconden tussen flips ⏱️ (standaard 3000)</li>
   </ul>
 
+  <h2>🔗 Meer info</h2>
   <p>
-    Meer informatie of updates vind je op
-    <a href="https://github.com/roy75/Kobra" target="_blank">GitHub Kobra repository</a>.
+    Volg de repository voor updates of issues:  
+    <a href="https://github.com/roy75/Kobra" target="_blank">GitHub Kobra repository</a> 🐙
   </p>
+
+  <p>Veel plezier met het gebruik van de kaart! 🚀🎉</p>
 </body>
 </html>
+
