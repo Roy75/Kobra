@@ -16,7 +16,7 @@ De kaart draait in een mooie **flip-animatie**, zodat je meerdere waarden compac
 ![Flip Sensor Card animatie](flip-animation.gif)  
 *Of screenshot: screenshot.png*
 
-```yaml
+yaml
 type: custom:flip-sensor-card
 entities:
   - sensor.woonkamer_temperatuur_2
@@ -25,11 +25,6 @@ names:
   - Binnen
   - Buiten
 interval: 3000
-show_icons: true
-icons:
-  - mdi:home-thermometer
-  - mdi:weather-sunny
-icon_size: 2em
 
 ---
 
