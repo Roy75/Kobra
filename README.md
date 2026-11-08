@@ -1,21 +1,8 @@
 # Kobra Black
 
-A true black Home Assistant theme with a blue accent, made for AMOLED and OLED screens such as phones, tablets and wall panels.
+A true black Home Assistant theme with white highlights and an orange accent, made for AMOLED and OLED screens such as phones, tablets and wall panels.
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz/docs/faq/custom_repositories)
-
-## Credits
-
-Kobra Black is based on [AMOLED Blue](https://github.com/JuanMTech/amoled_blue) by [JuanMTech](https://github.com/JuanMTech). The original repository was archived in 2023. All credit for the original design and color palette goes to him.
-
-## What's different from AMOLED Blue
-
-- Replaced the obsolete `paper-*` variables with the variables current Home Assistant versions use
-- Added `rgb-*` variants, so tile cards, sliders and card features pick up the accent color
-- Added `state-*-active-color` variables, so active lights, switches, fans and covers show in blue
-- Added a subtle card border, because cards are hard to tell apart from a pure black background
-- Added colors for the code editor
-- Fixed a typo in `sidebar-selected-text-color`
 
 ## Colors
 
@@ -23,11 +10,15 @@ Kobra Black is based on [AMOLED Blue](https://github.com/JuanMTech/amoled_blue) 
 | --- | --- |
 | Background | `#000000` |
 | Secondary background | `#0D0D0D` |
-| Primary | `#5F9BEA` |
+| Highlights (active states, sliders, switches) | `#E1E1E1` |
 | Accent (badges) | `#FF9800` |
 | Text | `#BDC1C6` |
 | Secondary text | `#8E9399` |
 | Card border | `#1A1A1A` |
+
+## Credits
+
+Inspired by [AMOLED Blue](https://github.com/JuanMTech/amoled_blue) by JuanMTech.
 
 ## Installation
 
