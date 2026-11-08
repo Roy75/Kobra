@@ -23,7 +23,8 @@ Kobra Black is based on [AMOLED Blue](https://github.com/JuanMTech/amoled_blue) 
 | --- | --- |
 | Background | `#000000` |
 | Secondary background | `#0D0D0D` |
-| Accent | `#5F9BEA` |
+| Primary | `#5F9BEA` |
+| Accent (badges) | `#FF9800` |
 | Text | `#BDC1C6` |
 | Secondary text | `#8E9399` |
 | Card border | `#1A1A1A` |

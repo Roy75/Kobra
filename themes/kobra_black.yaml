@@ -6,8 +6,8 @@ Kobra Black:
   # Base
   primary-color: "#5F9BEA"
   rgb-primary-color: "95, 155, 234"
-  accent-color: "#5F9BEA"
-  rgb-accent-color: "95, 155, 234"
+  accent-color: "#FF9800"
+  rgb-accent-color: "255, 152, 0"
   light-primary-color: "#404D64"
   dark-primary-color: "#3F6FB0"
   primary-background-color: "#000000"
