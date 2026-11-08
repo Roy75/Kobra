@@ -22,6 +22,7 @@ Kobra Black:
   secondary-text-color: "#8E9399"
   text-primary-color: "#000000"
   rgb-text-primary-color: "0, 0, 0"
+  text-accent-color: "#FFFFFF"
   text-light-primary-color: "#FFFFFF"
   disabled-text-color: "#717171"
   rgb-disabled-color: "113, 113, 113"
