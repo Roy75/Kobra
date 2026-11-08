@@ -1,0 +1,134 @@
+# Kobra Black
+# A true black Home Assistant theme with a blue accent, for AMOLED and OLED screens.
+# Based on AMOLED Blue by JuanMTech: https://github.com/JuanMTech/amoled_blue
+# Updated for current Home Assistant theme variables.
+Kobra Black:
+  # Base
+  primary-color: "#5F9BEA"
+  rgb-primary-color: "95, 155, 234"
+  accent-color: "#5F9BEA"
+  rgb-accent-color: "95, 155, 234"
+  light-primary-color: "#404D64"
+  dark-primary-color: "#3F6FB0"
+  primary-background-color: "#000000"
+  rgb-primary-background-color: "0, 0, 0"
+  secondary-background-color: "#0D0D0D"
+  clear-background-color: "#000000"
+  divider-color: "rgba(255, 255, 255, 0.08)"
+  outline-color: "rgba(255, 255, 255, 0.12)"
+
+  # Text
+  primary-text-color: "#BDC1C6"
+  rgb-primary-text-color: "189, 193, 198"
+  secondary-text-color: "#8E9399"
+  text-primary-color: "#FFFFFF"
+  rgb-text-primary-color: "255, 255, 255"
+  text-light-primary-color: "#FFFFFF"
+  disabled-text-color: "#717171"
+  rgb-disabled-color: "113, 113, 113"
+  disabled-color: "#717171"
+
+  # Header
+  app-header-background-color: "#000000"
+  app-header-text-color: "#BDC1C6"
+  app-header-selection-bar-color: "#5F9BEA"
+
+  # Sidebar
+  sidebar-background-color: "#0D0D0D"
+  sidebar-text-color: "#BDC1C6"
+  sidebar-icon-color: "#BDC1C6"
+  sidebar-selected-background-color: "#000000"
+  sidebar-selected-icon-color: "#5F9BEA"
+  sidebar-selected-text-color: "#5F9BEA"
+
+  # Cards
+  card-background-color: "#000000"
+  ha-card-background: "#000000"
+  ha-card-border-radius: "10px"
+  ha-card-border-width: "1px"
+  ha-card-border-color: "#1A1A1A"
+  ha-card-box-shadow: "none"
+
+  # Dialogs and menus
+  ha-dialog-surface-background: "#0D0D0D"
+  mdc-theme-surface: "#0D0D0D"
+  mdc-theme-primary: "#5F9BEA"
+  mdc-theme-on-primary: "#FFFFFF"
+  mdc-theme-text-primary-on-background: "#BDC1C6"
+  mdc-theme-text-secondary-on-background: "#8E9399"
+  material-background-color: "#0D0D0D"
+  material-secondary-background-color: "#000000"
+  material-body-text-color: "#BDC1C6"
+
+  # States and icons
+  state-icon-color: "#ADB2B8"
+  state-icon-active-color: "#5F9BEA"
+  state-active-color: "#5F9BEA"
+  state-inactive-color: "#636466"
+  state-unavailable-color: "#717171"
+  state-icon-unavailable-color: "#717171"
+  state-light-active-color: "#5F9BEA"
+  state-switch-active-color: "#5F9BEA"
+  state-input_boolean-active-color: "#5F9BEA"
+  state-fan-active-color: "#5F9BEA"
+  state-cover-active-color: "#5F9BEA"
+
+  # Badges
+  label-badge-background-color: "#000000"
+  label-badge-text-color: "#BDC1C6"
+  label-badge-red: "#BE3A3E"
+  label-badge-green: "#5CB861"
+  label-badge-blue: "#44A4CD"
+  label-badge-yellow: "#D5AE43"
+  label-badge-grey: "#5F6267"
+  ha-badge-background-color: "#0D0D0D"
+  ha-badge-border-color: "#1A1A1A"
+
+  # Status colors
+  error-color: "#BE3A3E"
+  warning-color: "#D5AE43"
+  success-color: "#5CB861"
+  info-color: "#44A4CD"
+
+  # Switches
+  switch-checked-button-color: "#5F9BEA"
+  switch-checked-track-color: "#404D64"
+  switch-unchecked-button-color: "#636466"
+  switch-unchecked-track-color: "#3A3B3D"
+
+  # Sliders
+  ha-slider-background-color: "#404D64"
+  slider-color: "#5F9BEA"
+  slider-bar-color: "#404D64"
+
+  # Input fields
+  input-fill-color: "#0D0D0D"
+  input-disabled-fill-color: "#0D0D0D"
+  input-ink-color: "#BDC1C6"
+  input-label-ink-color: "#8E9399"
+  input-idle-line-color: "#3A3B3D"
+  input-hover-line-color: "#5F9BEA"
+  input-dropdown-icon-color: "#8E9399"
+  mdc-text-field-fill-color: "#0D0D0D"
+  mdc-select-fill-color: "#0D0D0D"
+  mdc-select-ink-color: "#BDC1C6"
+  mdc-select-label-ink-color: "#8E9399"
+  mdc-select-idle-line-color: "#3A3B3D"
+  mdc-select-hover-line-color: "#5F9BEA"
+  mdc-select-dropdown-icon-color: "#8E9399"
+
+  # Tables
+  table-row-background-color: "#000000"
+  table-row-alternative-background-color: "#0D0D0D"
+  data-table-background-color: "#000000"
+
+  # Code / editor
+  markdown-code-background-color: "#0D0D0D"
+  code-editor-background-color: "#0D0D0D"
+  codemirror-keyword: "#5F9BEA"
+  codemirror-property: "#44A4CD"
+  codemirror-string: "#5CB861"
+  codemirror-number: "#D5AE43"
+
+  # HACS
+  hacs-chip-background-color: "#5F9BEA"
